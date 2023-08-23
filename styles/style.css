@@ -1,0 +1,25 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+/* project variables */
+:root {
+    --bg-main-color: #1f2937;
+    --bg-sec-color: #FFFFFF;
+    --bg-quote-color: #E5E7EB;
+    --bg-cta-color: #3882F6;
+    --text-pr: #f9faf8;
+    --text-sec: ##E5E7EB;
+    --text-qouote: #1F2937;
+    --text-thr: #1F2937;
+    --main-font: 'Space Grotesk', sans-serif;
+    --sec-font: 'Lora', serif;
+}
+
+/* Nulify some styles */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
