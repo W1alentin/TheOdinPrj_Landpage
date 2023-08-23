@@ -20,6 +20,45 @@
 *::after,
 *::before {
     padding: 0;
-    margin: 0; 
+    margin: 0;
+    border: 0; 
     box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+p {
+    font-family: inherit;
+    font-weight: inherit;
+}
+
+a,
+a::after,
+a::before {
+    font-family: inherit;
+    font-weight: inherit;
+    
+}
+
+button {
+    font-family: inherit;
+    font-weight: inherit;
+    cursor: pointer;
+}
+
+
+/* Main styles */
+body {
+    background-color: var(--bg-main-color);
+    color: var(--text-pr);
+    font-family: var(--main-font);
+    font-weight: 400;
 }
