@@ -73,7 +73,7 @@ body {
 
 .wrapper {
     padding: 1rem 3rem;
-    max-width: 80rem;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -137,8 +137,7 @@ nav {
         }
 
         .hero_block > img {
-            align-content: top;
-            min-width: 25rem;
-            max-height: 15.5rem;
-        }
+            max-width: 35rem;
+            max-height: 25rem;
+            }
 
