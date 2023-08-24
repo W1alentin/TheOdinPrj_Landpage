@@ -71,8 +71,10 @@ body {
     font-weight: 400;
 }
 
-main {
+.wrapper {
     padding: 1rem 3rem;
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 nav {
@@ -95,3 +97,48 @@ nav {
         gap: 1.2rem;
         color: var(--bg-quote-color);
     }
+
+.hero_block {
+    padding: 8.5rem 0;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+    .hero_block > section {
+        max-width: 31.25rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+        .hero_block > section > h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1.2;
+        }
+
+        .hero_block > section > p {
+            font-size: 1.125rem;
+            line-height: 1.5;
+        }
+
+        .hero_block > section > button {
+            max-width: 12.5rem;
+            padding: 0.75rem 1.5rem;
+            background-color: var(--bg-cta-color);
+            border-radius: 0.25rem;
+            color: var(--text-pr);
+            font-size: 1.250rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero_block > img {
+            align-content: top;
+            min-width: 25rem;
+            max-height: 15.5rem;
+        }
+
