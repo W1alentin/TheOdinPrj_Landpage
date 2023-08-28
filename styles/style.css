@@ -77,7 +77,7 @@ body {
     margin: 0 auto;
 }
 
-nav {
+header {
     padding-bottom: 1rem;
     display: flex;
     flex: wrap;
@@ -98,7 +98,7 @@ nav {
         color: var(--bg-quote-color);
     }
 
-.hero_block {
+.content {
     padding: 8.5rem 0;
     display: flex;
     flex: wrap;
@@ -107,26 +107,26 @@ nav {
     
 }
 
-    .hero_block > section {
+    .content > section {
         max-width: 31.25rem;
         display: flex;
         flex-direction: column;
         gap: 1rem;
     }
 
-        .hero_block > section > h1 {
+        .content > section > h1 {
             font-size: 3rem;
             font-weight: 900;
             line-height: 1.2;
         }
 
-        .hero_block > section > p {
+        .content > section > p {
             font-size: 1.125rem;
             font-weight: 300;
             line-height: 1.5;
         }
 
-        .hero_block > section > button {
+        .content > section > button {
             max-width: 12.5rem;
             padding: 0.75rem 1.5rem;
             background-color: var(--bg-cta-color);
@@ -137,7 +137,7 @@ nav {
             line-height: 1.2;
         }
 
-        .hero_block > img {
+        .content > img {
             max-width: 35rem;
             max-height: 25rem;
             }
@@ -149,7 +149,7 @@ nav {
     padding-bottom: 6rem;
 }
 
-    .random_block > h2 {
+    .random_block > .wrapper > section > h2 {
         text-align: center;
         font-size: 2rem;
         font-weight: 700;
@@ -179,4 +179,39 @@ nav {
         margin-bottom: 0.75rem;
         border-radius: 0.75rem;
         border: 0.25rem solid var(--bg-cta-color);
+    }
+
+    .quote {
+        background-color: var(--bg-quote-color);
+        color: var(--text-qouote);
+        padding: 4rem 4rem;
+    }
+
+        h3 {
+            font-size: 2.25rem;
+            font-family: var(--sec-font);
+            line-height: 1.5;
+            margin-bottom: 0.5rem;
+        }
+
+        .thor {
+            padding: 0 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .thor > p {
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+.advertise {
+    background-color: var(--bg-sec-color);
+    padding: 8.5rem 0;
+}
+
+    .cta {
+        background-color: var(--bg-cta-color);
+        padding: 3rem 5rem;
     }
