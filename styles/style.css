@@ -208,10 +208,43 @@ header {
 
 .advertise {
     background-color: var(--bg-sec-color);
-    padding: 8.5rem 0;
+    padding: 6.5rem 0;
 }
 
     .cta {
         background-color: var(--bg-cta-color);
+        border-radius: 0.25rem;
         padding: 3rem 5rem;
+        display: flex;
+        justify-content: space-between;
+
     }
+
+    .cta > button {
+            max-width: 12.5rem;
+            padding: 0.75rem 1.5rem;
+            border: 2px solid var(--bg-sec-color);
+            background-color: var(--bg-cta-color);
+            border-radius: 0.25rem;
+            color: var(--text-pr);
+            font-size: 1.250rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+    .title > h4 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .title > p {
+        font-size: 1.125rem;
+            font-weight: 300;
+            line-height: 1.5;
+    }
+
+footer {
+    padding: 1rem;
+    text-align: center;
+}
